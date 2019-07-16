@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* Nav bar */
+nav{
+	padding-right: 30px;
+	margin-top: 35px;
+	font-size: 14px;
+	padding-left: 45px;
+	margin-bottom: 35px;
+}
+/*Navbar links*/
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: grey;
+	margin-right: 120px;
+	font-size: 1.2em;
+}
+/*Nav logo*/
+.logo{
+	position: relative;
+	bottom: 58px;
+	right: 40px;
+	float: right;
+	overflow: hidden;
+}
+
+button{
+	position: relative;
+	top: 440px;
+	right: 420px;
+	font-weight: bold;
+	font-size: 1.1em;
+	height: 40px;
+	width: 240px;
+	background: white;
+	border: black 2px solid;
+}
+
+button a{
+	text-decoration: none;
+	color: black;
+}
+
+/*Code snippet image*/
+.first-img{
+	position: relative;
+	left: 60px;
+	padding-top: 60px;
+	padding-right: 85px;
+
+}
+
+/*header*/
+.heading{
+	font-family: 'Bangers', cursive;
+	font-size: 113px;
+	float: left;
+	padding-left: 150px;
+	margin-left: 150px;
+	margin-top: 85px;
+}
+ /*columns for the first two section*/
+.container{
+	column-count: 2;
+	column-gap: 40px;
+	height: 150px;
+	width: 80%;
+	margin-top: 150px;
+	padding-top: 40px;
+	padding-left: 50px;
+	margin-bottom: 75px;
+	margin-left: 150px;
+	font-size: 1.1em;
+	border-top: 2px black solid;
+}
+
+/*middle code snippet*/
+
+.photo{
+	margin-left: 180px;
+	margin-right: 180px;
+}
+
+.middle-img{
+	width: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.column3{
+	column-count: 3;
+	column-gap: 80px;
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 140px;
+	margin-bottom: 60px;
+	padding-bottom: 75px;
+	font-size: 1.3em;
+	border-bottom: 2px black solid;
+
+
+}
+
+.contact{
+	margin-top: 30px;
+	padding-left: 150px;
+}
+
+address{
+	line-height: 2;
+	font-size: 1.1em;
+}
+
+footer{
+	margin-top: 35px;
+	margin-bottom: 35px;
+	font-size: 1.1em;
+	text-align: center;
+}
